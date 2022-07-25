@@ -1,0 +1,28 @@
+{
+	"screen_size": [720, 480],
+	"fps": 60,
+	"player_opt": {
+		"image": "player1.png",
+		"init_score": 10,
+		"each_score": 5,
+		"z_cd": 12,
+		"x_cd": 90,
+	},
+	"bullet_opt": {
+		"image": "bullet1.png",
+		"kill_score": 0,
+	}, 
+	"enemy_opt": {
+		"image": "enemy2.png",
+		"kill_score": -5,
+		"collide_score": -8,
+		"enemy_per_second": 2,
+		"v": 2,
+	},
+	"time_mode": {
+		"full_time": 10,
+	},
+	"rate_mode": {
+		"shoot_per_second": 2,
+	}
+}

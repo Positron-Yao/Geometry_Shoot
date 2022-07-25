@@ -1,0 +1,1 @@
+pyinstaller -F geosht.py -i i.ico -w
